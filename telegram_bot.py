@@ -42,7 +42,7 @@ age = 0;
 def start(message):
     if message.text == '/start':
         bot.send_message(message.from_user.id, "Яка вулиця тебе цікавить?");
-        bot.register_next_step_handler(message, get_street); #следующий шаг – функция get_name
+        bot.register_next_step_handler(message, get_street); 
         
         print('LOG:', datetime.now() , message.text)
     else:
