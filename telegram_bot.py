@@ -35,9 +35,7 @@ my_BOT_TOKEN = private_information.BOT_TOKEN
 
 bot = telebot.TeleBot(my_BOT_TOKEN)
 
-name = '';
-surname = '';
-age = 0;
+
 @bot.message_handler(content_types=['text'])
 def start(message):
     if message.text == '/start':
