@@ -1,0 +1,4 @@
+pandas>=1.2.2
+google-cloud-storage>=1.36.0
+datetime>=4.7
+requests>=2.31.0
